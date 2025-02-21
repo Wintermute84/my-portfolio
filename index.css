@@ -47,11 +47,12 @@ header{
   cursor: pointer;
   border-radius: 8px;
   transition: all .1s ease-in-out;
+  border:2px solid rgba(255, 255, 255, 0);
 }
 
 
 .profile-link:hover{
-  border: rgb(0, 0, 0) solid 2px;
+  border-color: rgb(0, 0, 0);
   background-color: rgb(205, 203, 203);
 }
 
@@ -134,10 +135,11 @@ header{
   border-radius: 3px;
   margin: 10px 4px;
   cursor: pointer;
+  border:1px solid rgba(255, 255, 255, 0);
 }
 
 .link-icon:hover{
-  border:black 1px solid;
+  border-color:black;
 }
 
 .project-link-container{
